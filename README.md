@@ -32,3 +32,7 @@ npx playwright test tests/discover.spec.js --workers=1
 ```
 
 The Discover tests cover catalogue search, navigation, retry handling and location query parameters. Native Android push notifications, background workers and full market administration are not ported.
+
+## Vercel
+
+Import this repository as a Vite project. `vercel.json` forwards `/api/*` to the HTTPS Voha backend, including Telegram login and uploaded media. The local Node proxy is not required on Vercel. Set the bot Mini App/menu URL to the stable production domain, not an individual preview deployment. Never put the bot token in Vercel frontend variables.
