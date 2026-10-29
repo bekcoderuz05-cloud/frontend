@@ -1,0 +1,77 @@
+{
+  "destinations": [
+    {
+      "id": "boysun",
+      "name": "Boysun Tog'lari",
+      "imageUrl": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1200&q=80",
+      "description": "Boysun - asriy qadriyatlar va bokira tabiat chorrahasi. Dengiz sathidan juda balandda joylashgan ushbu hudud o'zining betakror manzaralari, musaffo havosi, shifobaxsh giyohlari va Darband darasi kabi tabiat mo'jizalari bilan butun dunyo sayyohlarini o'ziga jalb qiladi. Bu yer YUNESKO tomonidan \"Insoniyatning og'zaki va nomoddiy madaniy merosi durdonasi\" deb e'tirof etilgan. Har yili bahorda bu yerda xalqaro \"Boysun bahori\" folklor festivali o'tkaziladi.",
+      "location": "Boysun tumani, Surxondaryo",
+      "bestTimeToVisit": "Aprel - Iyun, Sentyabr - Noyabr",
+      "ticketPrice": "Bepul (Kirish cheklanmagan)"
+    },
+    {
+      "id": "oqsaroy",
+      "name": "Oqsaroy Majmuasi",
+      "imageUrl": "https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=1200&q=80",
+      "description": "Oqsaroy - Amir Temur hukmronligi davrida Shahrisabzda qurilgan eng ulug'vor va mahobatli saroy. Uning qurilishi 1380-yilda boshlanib, 24 yil davom etgan. Saroy peshtoqidagi \"Agar bizning qudratimizga shubha qilsangiz, qurgan binolarimizga boqing!\" degan yozuv o'sha davrdagi buyuk me'morchilik san'atidan dalolat beradi.",
+      "location": "Shahrisabz shahri, Qashqadaryo",
+      "bestTimeToVisit": "Butun yil davomida",
+      "ticketPrice": "15,000 UZS (Xorijliklar uchun 35,000 UZS)"
+    },
+    {
+      "id": "sangardak",
+      "name": "Sangardak Sharsharasi",
+      "imageUrl": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=1200&q=80",
+      "description": "Sangardak sharsharasi - O'zbekistonning eng go'zal va baland sharsharalaridan biri. Suv tomchilari salkam 140-150 metr balandlikdan, yam-yashil moxlar bilan qoplangan ulkan tosh qoyalar orasidan quyiladi. Ushbu sharsharaning o'ziga xosligi shundaki, suv daryodan emas, balki tog' ichidagi karst g'orlaridan oqib chiqadi.",
+      "location": "Sariosiyo tumani, Surxondaryo",
+      "bestTimeToVisit": "May - Avgust oylari",
+      "ticketPrice": "Bepul"
+    },
+    {
+      "id": "fayoztepa",
+      "name": "Fayoztepa Budda Ibodatxonasi",
+      "imageUrl": "https://images.unsplash.com/photo-1541432901042-2d8bd64b4a9b?auto=format&fit=crop&w=1200&q=80",
+      "description": "Fayoztepa - qadimiy Termiz yaqinidagi budda ibodatxonasi majmuasi bo'lib, I-III asrlarga, ya'ni Kushon imperiyasi davriga oid. Ushbu tarixiy yodgorlik Vohaning Buyuk Ipak yo'lidagi madaniyatlar va dinlar chorrahasi bo'lganidan dalolat beradi.",
+      "location": "Eski Termiz shahri, Surxondaryo",
+      "bestTimeToVisit": "Mart - May, Sentyabr - Noyabr",
+      "ticketPrice": "10,000 UZS (Xorijliklar uchun 25,000 UZS)"
+    },
+    {
+      "id": "qarshi_koprik",
+      "name": "Qarshi Tarixiy Ko'prigi",
+      "imageUrl": "https://images.unsplash.com/photo-1508193638397-1c4234db14d8?auto=format&fit=crop&w=1200&q=80",
+      "description": "Qarshi ko'prigi (shuningdek, Amir Temur ko'prigi nomi bilan mashhur) - XVI asrda Qashqadaryo daryosi ustiga qurilgan qadimiy g'ishtli muhandislik inshooti. Uzunligi 122 metr, kengligi 8 metr bo'lgan bu ko'prik qadimiy savdo karvonlarini bog'lagan muhim strategik nuqta bo'lgan.",
+      "location": "Qarshi shahri, Qashqadaryo",
+      "bestTimeToVisit": "Butun yil davomida (ayniqsa, bahor va kuz oqshomlari)",
+      "ticketPrice": "Bepul"
+    },
+    {
+      "id": "tandir_kabob",
+      "name": "Qashqadaryo Tandir Kabobi",
+      "imageUrl": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=80",
+      "description": "Qashqadaryo tandir go'shti - o'zbek milliy pazandachiligining shoh asarlaridan biri. Yangi so'yilgan qo'y go'shti tog' archasi barglari, tuz va zira bilan ziravorlanadi. So'ngra yer ostida qazilgan maxsus loy tandirda, archa o'tinining tutunida dimlanib pishiriladi.",
+      "location": "Kitob va Qamashi tumanlari, Qashqadaryo",
+      "bestTimeToVisit": "Tushlik yoki kechki ovqat vaqti",
+      "ticketPrice": "O'rtacha 1 kg go'sht: 120,000 - 150,000 UZS"
+    },
+    {
+      "id": "surxon_shashlik",
+      "name": "Surxondaryo Momiq Shashligi",
+      "imageUrl": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=1200&q=80",
+      "description": "Surxondaryo shashligi o'zining mayinligi, dumi yog'i bilan navbatma-navbat terilishi va maxsus tog' giyohlari bilan marinadlanishi bilan ajralib turadi. Ko'mirda sekin pishiriladigan shashlik sharbati ichida saqlanib, o'ta yumshoq va mazali bo'ladi.",
+      "location": "Denov va Termiz tumanlari, Surxondaryo",
+      "bestTimeToVisit": "Butun yil davomida",
+      "ticketPrice": "1 bitta six: 15,000 - 22,000 UZS"
+    },
+    {
+      "id": "baxshichilik",
+      "name": "Surxon-Qashqadaryo Baxshichilik Maktabi",
+      "imageUrl": "https://images.unsplash.com/photo-1511192336575-5a79af67a629?auto=format&fit=crop&w=1200&q=80",
+      "description": "Voha - dostonchilik va baxshichilik san'atining beshigi hisoblanadi. Sherobod dostonchilik maktabi asrlar davomida o'zbek xalq og'zaki ijodini saqlab kelmoqda. Baxshilar qo'llarida do'mbira ushlab, bo'g'iz ovozida \"Alpomish\", \"Go'ro'g'li\" kabi qahramonlik dostonlarini yoddan kuylashadi.",
+      "location": "Sherobod tumani, Surxondaryo",
+      "bestTimeToVisit": "Bahor va kuz fasllaridagi madaniy tadbirlar",
+      "ticketPrice": "Tadbirlarga kirish asosan bepul"
+    }
+  ],
+  "quiz": []
+}

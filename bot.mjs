@@ -1,0 +1,6 @@
+// Optional /start launcher. Run separately only after configuring a bot and HTTPS URL.
+const token=process.env.BOT_TOKEN,url=process.env.MINI_APP_URL;
+if(!token||!url?.startsWith('https://'))throw new Error('BOT_TOKEN va HTTPS MINI_APP_URL ni .env.miniapp faylida kiriting');
+async function call(method,body){const r=await fetch(`https://api.telegram.org/bot${token}/${method}`,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(body),signal:AbortSignal.timeout(40000)});const data=await r.json();if(!data.ok)throw new Error('Telegram API: '+data.description);return data.result}
+let offset=0;console.log('Voha bot ishga tushdi');
+while(true){try{const updates=await call('getUpdates',{offset,timeout:25,allowed_updates:['message']});for(const update of updates){offset=update.update_id+1;const msg=update.message;if(msg?.chat.type==='private'&&/^\/start(?:@\w+)?(?:\s|$)/.test(msg.text||''))await call('sendMessage',{chat_id:msg.chat.id,text:'Voha’ga xush kelibsiz! Suhbat, market va ta’lim bir joyda.',reply_markup:{inline_keyboard:[[{text:'Voha’ni ochish',web_app:{url}}]]}})}}catch(error){console.error(error.message.replaceAll(token,'[redacted]'));await new Promise(r=>setTimeout(r,3000))}}
