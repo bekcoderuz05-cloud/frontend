@@ -1,4 +1,4 @@
-// Telegram ma'lumotlari faqat ko'rinish uchun. Voha identifikatsiyasi OTP bilan amalga oshadi.
+// initData is sent to the backend for signature verification before creating a Voha session.
 declare global { interface Window { Telegram?: {WebApp:any} } }
 export const tg=window.Telegram?.WebApp;
 export function initTelegram(){

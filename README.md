@@ -20,7 +20,7 @@ For development, keep `npm start` running for the API proxy and run `npm run dev
 
 Copy `.env.miniapp.example` to `.env.miniapp`. Set `API_BASE_URL` to your backend and optionally adjust `PORT` and `HOST`. Secrets must remain in this local file.
 
-Telegram requires a public HTTPS URL configured in BotFather. The optional launcher can be started with `npm run bot` after configuring `BOT_TOKEN` and `MINI_APP_URL`. Authentication uses the existing Voha phone/OTP flow; Telegram profile data does not authenticate a Voha account.
+Telegram requires a public HTTPS URL configured in BotFather. The optional launcher can be started with `npm run bot` after configuring `BOT_TOKEN` and `MINI_APP_URL`. Inside Telegram, login automatically sends signed init data to the backend and creates a Voha session. Phone/OTP remains available in the browser. Deploy the backend endpoint described in [backend/README.md](backend/README.md) and set MINI_APP_BOT_TOKEN in the backend environment.
 
 ## Checks
 
